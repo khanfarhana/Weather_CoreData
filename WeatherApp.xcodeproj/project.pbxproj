@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		BB08E5032651620000E51763 /* WeatherApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB08E5012651620000E51763 /* WeatherApp.xcdatamodeld */; };
 		BB08E5062651624300E51763 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BB08E5052651624300E51763 /* Alamofire */; };
-		BB3AD8962651652100238841 /* cloud.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB3AD8942651652100238841 /* cloud.jpeg */; };
-		BB3AD8972651652100238841 /* 1092637.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB3AD8952651652100238841 /* 1092637.jpeg */; };
 		BB3AD89A2651737D00238841 /* sunny.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3AD8982651737D00238841 /* sunny.json */; };
 		BB3AD89B2651737D00238841 /* cloudy.json in Resources */ = {isa = PBXBuildFile; fileRef = BB3AD8992651737D00238841 /* cloudy.json */; };
 		BB3AD89E2651746000238841 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = BB3AD89D2651746000238841 /* Lottie */; };
@@ -18,11 +16,9 @@
 		BB3AD8A9265178E100238841 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8A3265178E100238841 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		BB3AD8AA265178E100238841 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8A4265178E100238841 /* TPKeyboardAvoidingCollectionView.m */; };
 		BB3AD8AB265178E100238841 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8A6265178E100238841 /* TPKeyboardAvoidingScrollView.m */; };
-		BB3AD8AE26517E6400238841 /* pngtree-outline-user-icon-png-image_1727916.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BB3AD8AD26517E6400238841 /* pngtree-outline-user-icon-png-image_1727916.jpeg */; };
 		BB3AD8B126517F0100238841 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8AF26517F0100238841 /* CustomView.swift */; };
 		BB3AD8B226517F0100238841 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8B026517F0100238841 /* CustomButton.swift */; };
-		BB3AD8B42651837A00238841 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8B32651837A00238841 /* SignUp.swift */; };
-		BB3AD8B62651857B00238841 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3AD8B52651857B00238841 /* user.png */; };
+		BB3AD8B42651837A00238841 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3AD8B32651837A00238841 /* SignUpVC.swift */; };
 		BB536FA526503BCF00EE86DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB536FA426503BCF00EE86DC /* AppDelegate.swift */; };
 		BB536FA726503BCF00EE86DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB536FA626503BCF00EE86DC /* SceneDelegate.swift */; };
 		BB536FA926503BCF00EE86DC /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB536FA826503BCF00EE86DC /* WeatherVC.swift */; };
@@ -31,13 +27,13 @@
 		BB536FB126503BCF00EE86DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB536FAF26503BCF00EE86DC /* LaunchScreen.storyboard */; };
 		BB99F2F02651A8BC00A47B6B /* UserDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99F2EF2651A8BC00A47B6B /* UserDataVC.swift */; };
 		BB99F2F22651A8CD00A47B6B /* CustomTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB99F2F12651A8CD00A47B6B /* CustomTVC.swift */; };
+		BBBBB91726528AA2006E8785 /* weatherAnime.json in Resources */ = {isa = PBXBuildFile; fileRef = BBBBB91626528AA2006E8785 /* weatherAnime.json */; };
+		BBF13F80265286D80084BFDB /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF13F7F265286D80084BFDB /* AnimationVC.swift */; };
 		BBFF27CB2652578C00061EF9 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF27CA2652578C00061EF9 /* Connectivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB08E5022651620000E51763 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		BB3AD8942651652100238841 /* cloud.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cloud.jpeg; sourceTree = "<group>"; };
-		BB3AD8952651652100238841 /* 1092637.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1092637.jpeg; sourceTree = "<group>"; };
 		BB3AD8982651737D00238841 /* sunny.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sunny.json; sourceTree = "<group>"; };
 		BB3AD8992651737D00238841 /* cloudy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cloudy.json; sourceTree = "<group>"; };
 		BB3AD8A0265178E000238841 /* WeatherApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeatherApp-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -49,11 +45,9 @@
 		BB3AD8A6265178E100238841 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		BB3AD8A7265178E100238841 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
 		BB3AD8AC26517A1800238841 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
-		BB3AD8AD26517E6400238841 /* pngtree-outline-user-icon-png-image_1727916.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pngtree-outline-user-icon-png-image_1727916.jpeg"; sourceTree = "<group>"; };
 		BB3AD8AF26517F0100238841 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		BB3AD8B026517F0100238841 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		BB3AD8B32651837A00238841 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
-		BB3AD8B52651857B00238841 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		BB3AD8B32651837A00238841 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		BB536FA126503BCF00EE86DC /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB536FA426503BCF00EE86DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB536FA626503BCF00EE86DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +58,8 @@
 		BB536FB226503BCF00EE86DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB99F2EF2651A8BC00A47B6B /* UserDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataVC.swift; sourceTree = "<group>"; };
 		BB99F2F12651A8CD00A47B6B /* CustomTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTVC.swift; sourceTree = "<group>"; };
+		BBBBB91626528AA2006E8785 /* weatherAnime.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weatherAnime.json; sourceTree = "<group>"; };
+		BBF13F7F265286D80084BFDB /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
 		BBFF27CA2652578C00061EF9 /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +95,9 @@
 		BB536F9826503BCF00EE86DC = {
 			isa = PBXGroup;
 			children = (
+				BBF13F7C265286150084BFDB /* Model */,
+				BBF13F7B2652860B0084BFDB /* Views */,
+				BBF13F7A265285EA0084BFDB /* ViewController */,
 				BB3AD89F265178CB00238841 /* keyboard */,
 				BB536FA326503BCF00EE86DC /* WeatherApp */,
 				BB536FA226503BCF00EE86DC /* Products */,
@@ -117,27 +116,46 @@
 			isa = PBXGroup;
 			children = (
 				BB536FA426503BCF00EE86DC /* AppDelegate.swift */,
-				BBFF27CA2652578C00061EF9 /* Connectivity.swift */,
 				BB536FA626503BCF00EE86DC /* SceneDelegate.swift */,
-				BB536FA826503BCF00EE86DC /* WeatherVC.swift */,
 				BB536FAA26503BCF00EE86DC /* Main.storyboard */,
-				BB99F2F12651A8CD00A47B6B /* CustomTVC.swift */,
-				BB99F2EF2651A8BC00A47B6B /* UserDataVC.swift */,
-				BB3AD8952651652100238841 /* 1092637.jpeg */,
-				BB3AD8942651652100238841 /* cloud.jpeg */,
 				BB536FAD26503BCF00EE86DC /* Assets.xcassets */,
+				BBBBB91626528AA2006E8785 /* weatherAnime.json */,
 				BB536FAF26503BCF00EE86DC /* LaunchScreen.storyboard */,
 				BB536FB226503BCF00EE86DC /* Info.plist */,
-				BB08E5012651620000E51763 /* WeatherApp.xcdatamodeld */,
 				BB3AD8992651737D00238841 /* cloudy.json */,
+				BB08E5012651620000E51763 /* WeatherApp.xcdatamodeld */,
 				BB3AD8982651737D00238841 /* sunny.json */,
-				BB3AD8B52651857B00238841 /* user.png */,
-				BB3AD8AD26517E6400238841 /* pngtree-outline-user-icon-png-image_1727916.jpeg */,
-				BB3AD8B026517F0100238841 /* CustomButton.swift */,
-				BB3AD8AF26517F0100238841 /* CustomView.swift */,
-				BB3AD8B32651837A00238841 /* SignUp.swift */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		BBF13F7A265285EA0084BFDB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB99F2EF2651A8BC00A47B6B /* UserDataVC.swift */,
+				BB536FA826503BCF00EE86DC /* WeatherVC.swift */,
+				BBF13F7F265286D80084BFDB /* AnimationVC.swift */,
+				BB3AD8B32651837A00238841 /* SignUpVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BBF13F7B2652860B0084BFDB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB99F2F12651A8CD00A47B6B /* CustomTVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBF13F7C265286150084BFDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB3AD8B026517F0100238841 /* CustomButton.swift */,
+				BBFF27CA2652578C00061EF9 /* Connectivity.swift */,
+				BB3AD8AF26517F0100238841 /* CustomView.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,13 +226,10 @@
 			files = (
 				BB536FB126503BCF00EE86DC /* LaunchScreen.storyboard in Resources */,
 				BB3AD89B2651737D00238841 /* cloudy.json in Resources */,
-				BB3AD8AE26517E6400238841 /* pngtree-outline-user-icon-png-image_1727916.jpeg in Resources */,
 				BB3AD89A2651737D00238841 /* sunny.json in Resources */,
-				BB3AD8962651652100238841 /* cloud.jpeg in Resources */,
-				BB3AD8B62651857B00238841 /* user.png in Resources */,
+				BBBBB91726528AA2006E8785 /* weatherAnime.json in Resources */,
 				BB536FAE26503BCF00EE86DC /* Assets.xcassets in Resources */,
 				BB536FAC26503BCF00EE86DC /* Main.storyboard in Resources */,
-				BB3AD8972651652100238841 /* 1092637.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,12 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF13F80265286D80084BFDB /* AnimationVC.swift in Sources */,
 				BB08E5032651620000E51763 /* WeatherApp.xcdatamodeld in Sources */,
 				BB99F2F02651A8BC00A47B6B /* UserDataVC.swift in Sources */,
 				BB3AD8AB265178E100238841 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				BB3AD8A9265178E100238841 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				BB3AD8B126517F0100238841 /* CustomView.swift in Sources */,
-				BB3AD8B42651837A00238841 /* SignUp.swift in Sources */,
+				BB3AD8B42651837A00238841 /* SignUpVC.swift in Sources */,
 				BBFF27CB2652578C00061EF9 /* Connectivity.swift in Sources */,
 				BB3AD8B226517F0100238841 /* CustomButton.swift in Sources */,
 				BB3AD8A8265178E100238841 /* TPKeyboardAvoidingTableView.m in Sources */,

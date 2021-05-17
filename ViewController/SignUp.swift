@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreData
-class SignUp: UIViewController {
+class SignUpVC: UIViewController {
     
     @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var nameTF: UITextField!
@@ -87,7 +87,7 @@ class SignUp: UIViewController {
 }
 
 
-extension SignUp: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+extension SignUpVC: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {

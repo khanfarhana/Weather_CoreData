@@ -14,44 +14,44 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wdc-gd-uiA" customClass="WeatherVC" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rmg-jv-VWT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="r1Y-yM-PmV">
-                                <rect key="frame" x="171.5" y="108" width="71" height="60"/>
+                                <rect key="frame" x="158" y="20" width="98.5" height="86.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckf-kq-UVT">
-                                        <rect key="frame" x="0.0" y="0.0" width="71" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="98.5" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDn-On-hl0">
-                                        <rect key="frame" x="0.0" y="36" width="71" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <rect key="frame" x="0.0" y="36" width="98.5" height="50.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1l-8V-ir1">
-                                <rect key="frame" x="16" y="791.5" width="382" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="16" y="722" width="382" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k76-Do-Ora">
-                                <rect key="frame" x="41.5" y="224" width="331" height="448"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="41.5" y="252.5" width="331" height="337"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="UsO-Jy-DWA">
-                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                                <rect key="frame" x="197" y="411" width="20" height="20"/>
                             </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gtf-xF-ddi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="k76-Do-Ora" firstAttribute="height" secondItem="Rmg-jv-VWT" secondAttribute="height" multiplier="0.5" id="6Ih-TX-WbL"/>
+                            <constraint firstItem="k76-Do-Ora" firstAttribute="height" secondItem="Rmg-jv-VWT" secondAttribute="height" multiplier="0.4" id="6Ih-TX-WbL"/>
                             <constraint firstItem="r1Y-yM-PmV" firstAttribute="centerX" secondItem="Rmg-jv-VWT" secondAttribute="centerX" id="7sN-qk-CrG"/>
                             <constraint firstItem="k76-Do-Ora" firstAttribute="centerX" secondItem="Rmg-jv-VWT" secondAttribute="centerX" id="9yZ-6H-fyu"/>
                             <constraint firstItem="r1Y-yM-PmV" firstAttribute="top" secondItem="Gtf-xF-ddi" secondAttribute="top" constant="20" id="B6o-xK-j6W"/>
@@ -68,6 +68,7 @@
                     <connections>
                         <outlet property="actIn" destination="UsO-Jy-DWA" id="A7f-yR-ddB"/>
                         <outlet property="descriptionLbl" destination="sDn-On-hl0" id="qDQ-o7-te3"/>
+                        <outlet property="mainView" destination="Rmg-jv-VWT" id="KgB-Ut-Q72"/>
                         <outlet property="nameLbl" destination="J1l-8V-ir1" id="YiD-q2-C8D"/>
                         <outlet property="tempLbl" destination="ckf-kq-UVT" id="AOX-au-82n"/>
                         <outlet property="viewAnimation" destination="k76-Do-Ora" id="D8h-8I-NMS"/>
@@ -77,16 +78,35 @@
             </objects>
             <point key="canvasLocation" x="966.66666666666674" y="96.428571428571431"/>
         </scene>
-        <!--Sign Up-->
+        <!--AnimationVC-->
+        <scene sceneID="BCC-kM-MS5">
+            <objects>
+                <viewController storyboardIdentifier="AnimationVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kZA-AY-G7b" customClass="AnimationVC" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EpG-cq-x59">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xgC-dI-tss"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oIO-TK-4O5"/>
+                    <connections>
+                        <outlet property="mainView" destination="EpG-cq-x59" id="ImF-Gg-4GG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6OL-1N-ciq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-820" y="114"/>
+        </scene>
+        <!--Sign UpVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SignUp" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUpVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="SignUpVC" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bte-Zx-l1q" customClass="TPKeyboardAvoidingScrollView">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GxS-xS-CSh">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="806.5"/>
@@ -214,7 +234,7 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.png" translatesAutoresizingMaskIntoConstraints="NO" id="aDF-Bc-Epf">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="aDF-Bc-Epf">
                                                 <rect key="frame" x="107" y="204" width="200" height="120"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -272,7 +292,7 @@
             <objects>
                 <viewController storyboardIdentifier="UserDataVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9Tt-Jc-Kjq" customClass="UserDataVC" customModule="WeatherApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6pV-fC-t9q">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -364,12 +384,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yAP-Lu-6KA"/>
+                        <segue destination="kZA-AY-G7b" kind="relationship" relationship="rootViewController" id="Gp3-Rm-2O2"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2P-q5-mFp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-931.88405797101461" y="95.758928571428569"/>
+            <point key="canvasLocation" x="-1639" y="95"/>
         </scene>
     </scenes>
     <designables>
@@ -384,7 +404,7 @@
         </designable>
     </designables>
     <resources>
-        <image name="user.png" width="90" height="90"/>
+        <image name="user" width="90" height="90"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
